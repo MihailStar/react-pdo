@@ -1,0 +1,46 @@
+.article {
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5em;
+  }
+
+  &__button-toggle {
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    border: 0;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 1px currentColor;
+    font-size: 15px;
+    font-family: inherit;
+    line-height: 1.6em;
+  }
+
+  &__body {
+    margin-bottom: 16px;
+  }
+
+  &__text {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  &__text:last-child {
+    margin-bottom: 0;
+  }
+
+  &__footer {
+    font-style: italic;
+  }
+}
